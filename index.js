@@ -1,6 +1,16 @@
+const fruit = ["Apples", "Grapes", "Pineapples", "Melons"];
+
 function useToString() {
-    const fruit = ["Apples", "Grapes", "Pineapples", "Melons"];
-    console.log(fruit);
     document.getElementById("useToString").innerHTML = fruit.toString();
 }
 useToString();
+
+function useJoin() {
+    document.getElementById("useJoin").innerHTML = fruit.join(", ");
+}
+useJoin();
+
+function usePop() {
+    document.getElementById("usePop").innerHTML = fruit.pop();
+}
+usePop();
