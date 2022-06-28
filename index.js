@@ -1,4 +1,6 @@
 const fruit = ["Apples", "Grapes", "Pineapples", "Melons"];
+const veggies = ["Carrots", "Celary", "Lettuce", "Onion"];
+const meats = ["Ham", "Turkey", "Beef", "Bacon"];
 
 function useToString() {
     document.getElementById("useToString").innerHTML = fruit.toString();
@@ -35,3 +37,15 @@ function useIndexes() {
     document.getElementById("useIndexes").innerHTML = fruit;
 }
 useIndexes();
+
+function useMergeTwo() {
+    const vegaterian = fruit.concat(veggies);
+    document.getElementById("useMergeTwo").innerHTML = vegaterian;
+}
+useMergeTwo();
+
+function useMergeThree() {
+    const omnivor = fruit.concat(veggies, meats);
+    document.getElementById("useMergeThree").innerHTML = omnivor;
+}
+useMergeThree();
