@@ -19,3 +19,8 @@ function usePush() {
     document.getElementById("usePush").innerHTML = fruit.push("Watermelon");
 }
 usePush();
+
+function useShift() {
+    document.getElementById("useShift").innerHTML = fruit.shift();
+}
+useShift();
