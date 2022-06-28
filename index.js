@@ -24,3 +24,8 @@ function useShift() {
     document.getElementById("useShift").innerHTML = fruit.shift();
 }
 useShift();
+
+function useUnshift() {
+    document.getElementById("useUnshift").innerHTML = fruit.unshift("Cantalope");
+}
+useUnshift();
