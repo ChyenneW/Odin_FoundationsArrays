@@ -51,6 +51,6 @@ function useMergeThree() {
 useMergeThree();
 
 function useSplice() {
-    document.getElementById("useSplice").innerHTML = fruit.splice(2, 0, "Bananas", "Kiwies");
+    document.getElementById("useSplice").innerHTML = fruit.splice(2, 2, "Bananas", "Kiwies");
 }
 useSplice();
