@@ -29,3 +29,9 @@ function useUnshift() {
     document.getElementById("useUnshift").innerHTML = fruit.unshift("Cantalope");
 }
 useUnshift();
+
+function useIndexes() {
+    fruit[2] = "Candy";
+    document.getElementById("useIndexes").innerHTML = fruit;
+}
+useIndexes();
