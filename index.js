@@ -14,3 +14,8 @@ function usePop() {
     document.getElementById("usePop").innerHTML = fruit.pop();
 }
 usePop();
+
+function usePush() {
+    document.getElementById("usePush").innerHTML = fruit.push("Watermelon");
+}
+usePush();
