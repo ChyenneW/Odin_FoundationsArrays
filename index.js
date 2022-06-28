@@ -49,3 +49,8 @@ function useMergeThree() {
     document.getElementById("useMergeThree").innerHTML = omnivor;
 }
 useMergeThree();
+
+function useSplice() {
+    document.getElementById("useSplice").innerHTML = fruit.splice(2, 0, "Bananas", "Kiwies");
+}
+useSplice();
